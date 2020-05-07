@@ -1,0 +1,87 @@
+.section--feature {
+    border-bottom: 1.3px solid #e6e6e6;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+
+}
+
+/*feature__item__icon not respond!!!!!*/
+.feature i {
+    display: block;
+    color: #C1BB62;
+    /*TODO: add the icons from noun project as SVG*/
+}
+
+.feature__item__icon {
+    color: #C1BB62;
+    margin-bottom: 10px;
+}
+
+.feature__item__tag {
+    display: block;
+    text-transform: capitalize;
+    color: #999999;
+}
+
+.feature__item__title {
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.feature__item__desc {
+    color: #555555;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-work {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 310px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.section__title {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.section__title__tag {
+    color: #C1BB62;
+}
+
+.card-title {
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+.card-category {
+    text-transform: capitalize;
+    color: #999999;
+}
