@@ -14,15 +14,7 @@
 
 }
 
-/*feature__item__icon not respond!!!!!*/
-.feature i {
-    display: block;
-    color: #C1BB62;
-    /*TODO: add the icons from noun project as SVG*/
-}
-
 .feature__item__icon {
-    color: #C1BB62;
     margin-bottom: 10px;
 }
 
@@ -47,7 +39,7 @@
     margin-bottom: 0;
 }
 
-.section-work {
+.section--work {
     padding-bottom: 60px;
     padding-top: 60px;
 }
@@ -58,7 +50,7 @@
 }
 
 .card-img {
-    width: 310px;
+    width: 285px;
     height: 200px;
     object-fit: cover;
     display: block;
